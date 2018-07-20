@@ -1,0 +1,90 @@
+/**
+ * Created by juaner on 2018/3/28.
+ */
+import {StyleSheet} from 'react-native';
+import Util from './../../../js/util';
+
+const WriteStyle = StyleSheet.create({
+    noContent:{
+        color:'#999',
+        fontSize:18,
+        marginTop:10
+    },
+    TopBox:{
+        paddingLeft:15,
+        paddingRight:15,
+        paddingTop:10,
+        paddingBottom:10,
+        flexDirection:'row',
+        alignItems:'center',
+        borderTopWidth:1,
+        borderBottomWidth:1,
+        borderTopColor:'#ddd',
+        borderBottomColor:'#ddd'
+    },
+    img:{
+        width:40,
+        height:40,
+        borderRadius:3
+    },
+    star:{
+        marginRight:18
+    },
+    Color99:{
+        color:'#999'
+    },
+    writeCon:{
+        borderBottomWidth:1,
+        borderBottomColor:'#ddd',
+        paddingBottom:15
+    },
+    store:{
+        flexDirection:'column',
+        paddingLeft:15,
+        paddingBottom:15,
+        paddingRight:15,
+        paddingTop:15
+    },
+    DarkBtn:{
+        paddingTop:12,
+        paddingBottom:12,
+        paddingRight:32,
+        paddingLeft:32,
+        borderColor:'#000',
+        borderWidth:1,
+        marginTop:50
+    },
+    addImg:{
+        marginLeft:15
+    },
+    imgBox:{
+        flexDirection:'row',
+        flexWrap:'wrap',
+        marginLeft:10,
+    },
+    imgItem:{
+        position:'relative',
+        marginRight:5,
+        width:120,
+        height:120,
+    },
+    imageL:{
+        width:100,
+        height:100,
+        marginBottom:10,
+    },
+    rightDelButton:{
+        width:20,
+        height:20,
+        position:'absolute',
+        top:-10,
+        left:100,
+        zIndex:9999
+    },
+    headerText:{
+        fontSize:16,
+        color:'#000',
+        marginTop:10
+    }
+});
+export default WriteStyle;
