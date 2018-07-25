@@ -200,6 +200,7 @@ export  default class OrderAll extends Component{
     //此函数用于为给定的item生成一个不重复的key
     //若不指定此函数，则默认抽取item.key作为key值。若item.key也不存在，则使用数组下标index。
     _keyExtractor = (item, index) => index;
+
     _renderItem = (value, index) => {
         let orderState=''
         switch (value.orderState){
